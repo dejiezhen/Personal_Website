@@ -4,10 +4,10 @@
         <div class="grid">
             <div :key="project.id" v-for="project in projects" class="grid-inner">
                 <Projects 
-                :picture = "project.picture"
-                :alt_picture = "project.alt_picture"
-                :text = "project.text"
-                :id = "project.id"
+                    :picture = "project.picture"
+                    :alt_picture = "project.alt_picture"
+                    :text = "project.text"
+                    :id = "project.id"
                 />
             </div>
         </div>
